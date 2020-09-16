@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+add defer in script tag
 ```
 
 ## Deliverable 2
@@ -35,7 +35,9 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+access style of the h1 tag by calling on style (using dot notation), 
+call on color, 
+set it to "red"
 ```
 
 ## Deliverable 3
@@ -57,7 +59,11 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
-
+create a div using document.createElement(),
+add a class using div.classList.add(), 
+add attribute to the div using div.setAttribute(attrName, attrValue)
+set the div's innerHTML, 
+append the div to an existing div container
 ```
 
 ## Deliverable 4
@@ -68,5 +74,6 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
-
+find element by using document.querySelector('element[attr='value']')
+delete element using .remove()
 ```
